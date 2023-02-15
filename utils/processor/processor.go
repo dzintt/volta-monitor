@@ -48,7 +48,7 @@ func monitor(locationId string, c chan []models.ChargerStation) {
 		}
 		c <- stationList
 		//<-time.After(5 * time.Second)
-		time.Sleep(1 * time.Second)
+		time.Sleep(10 * time.Second)
 	}
 }
 
