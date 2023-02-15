@@ -6,6 +6,8 @@ require github.com/saucesteals/mimic v0.0.0-20230105064518-ba44f16c6420
 
 require (
 	github.com/andybalholm/brotli v1.0.4 // indirect
+	github.com/bwmarrin/discordgo v0.27.0 // indirect
+	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/klauspost/compress v1.15.12 // indirect
 	github.com/refraction-networking/utls v1.1.6-0.20221101174805-9c1996abbbba // indirect
 	github.com/saucesteals/fhttp v0.0.0-20221106032530-a77df0f55ed9 // indirect

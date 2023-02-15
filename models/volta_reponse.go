@@ -3,13 +3,13 @@ package models
 type VoltaResponse struct {
 	Data struct {
 		LocationByNodeID struct {
-			Name              string      `json:"name"`
-			StreetAddress     string      `json:"streetAddress"`
-			City              string      `json:"city"`
-			State             string      `json:"state"`
-			ZipCode           string      `json:"zipCode"`
-			Tips              string      `json:"tips"`
-			ImageURL          interface{} `json:"imageUrl"`
+			Name              string `json:"name"`
+			StreetAddress     string `json:"streetAddress"`
+			City              string `json:"city"`
+			State             string `json:"state"`
+			ZipCode           string `json:"zipCode"`
+			Tips              string `json:"tips"`
+			ImageURL          string `json:"imageUrl"`
 			HoursByLocationID struct {
 				Edges []struct {
 					Node struct {
