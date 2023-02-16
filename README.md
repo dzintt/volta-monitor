@@ -5,4 +5,4 @@ This is a simple, while useful, project I made to work on my GoLang skills. Feel
 
 # Settings
 Webhook - Your Discord webhook
-Location IDs - List of the IDs you want to monitor check locations.txt to find your location ID
+Location IDs - List of the IDs you want to monitor. Check locations.txt to find your location ID or get it from the Volta site by inspect element on https://voltacharging.com/drivers.  
